@@ -238,7 +238,12 @@ color: #5e5d66;
 
   .header__nav-list {
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
+
+  .nav__list-item:not(:last-child) {
+    border-right: none;
+  }  
 
   .section-content__info,
   .section-content__schedule {
