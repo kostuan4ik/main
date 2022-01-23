@@ -236,6 +236,10 @@ color: #5e5d66;
     justify-content: center;
   }
 
+  .header__nav-list {
+    flex-wrap: wrap;
+  }
+
   .section-content__info,
   .section-content__schedule {
     width: 100%;
