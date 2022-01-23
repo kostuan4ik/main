@@ -159,7 +159,7 @@ color: #5e5d66;
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 24px;
-  line-height: 18px;
+  line-height: 1;
   color: #555555;
   margin-top: 0;
   margin-bottom: 5%;
@@ -229,6 +229,12 @@ color: #5e5d66;
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .section-content__container {
     flex-direction: column;
     flex-wrap: wrap;
